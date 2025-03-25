@@ -1,4 +1,5 @@
-/*"Write a C++ program that takes an integer N and two divisors (X and Y) along with two words. 
+/*
+Write a C++ program that takes an integer N and two divisors (X and Y) along with two words. 
 Print all numbers from 1 to N, following these rules:"
 - If a number is divisible by X, print your first name.
 - If a number is divisible by Y, print your last name.
