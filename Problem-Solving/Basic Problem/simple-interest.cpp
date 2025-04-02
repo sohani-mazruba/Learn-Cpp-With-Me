@@ -15,7 +15,7 @@ int main () {
     cout << "Enter time period(In Years): ";
     cin >> time;
 
-    sim_int = (principal*rate*time)/100.0;
+    sim_int = (principal*rate*time)/100.0; // using 100.0 to ensure floating-point division rather than integer division. Otherwise, it will lead to incorrect calculations.
     cout << "Simple Interest is: " << sim_int << endl;
 
     return 0;
