@@ -1,14 +1,17 @@
 /*
-Write a C++ program that takes an integer input from the user and prints its absolute value. 
-Do not use the built-in 'abs()' function; instead, implement the absolute value calculation manually.
+   Write a C++ program that takes an integer input from the user and prints its absolute value. 
+   Do not use the built-in 'abs()' function; instead, implement the absolute value calculation manually.
 
-Example Input/Output:
+   Example Input/Output:
 
-Enter a number: -15
-Absolute value: 15
+   Enter an integer: -15
+   Absolute value: 15
 
-Enter a number: 7
-Absolute value: 7
+   Enter an integer: 7
+   Absolute value: 7
+
+   Enter an integer: jfagfiua
+   This is not a number.
   
 Hints:
 - If the number is negative, multiply it by '-1' to make it positive.
