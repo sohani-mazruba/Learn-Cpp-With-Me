@@ -26,10 +26,9 @@ int main() {
 
     cout << "Enter an integer: ";
 
-    if (!(cin >> num)) {
+    if (!(cin >> num)) 
         cout << "This is not a number." << endl;
         return 1; // Exit program if input is invalid
-    }
 
     if (num >= 0)
         abs_Value = num;
