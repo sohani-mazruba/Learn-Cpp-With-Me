@@ -14,23 +14,26 @@ Hints:
 - If the number is negative, multiply it by '-1' to make it positive.
 - If the number is already positive or zero, print it as is.
 */
+
 #include <iostream>
 using namespace std;
 
 int main() {
-    int num,absoluteValue;
+    int num, abs_Value;
 
     cout << "Enter an integer: ";
-    cin>>num;
-   
+
+    if (!(cin >> num)) {
+        cout << "This is not a number." << endl;
+        return 1; // Exit program if input is invalid
+    }
+
     if (num >= 0)
-        absoluteValue = num;
-
+        abs_Value = num;
     else
-        absoluteValue = -num;
+        abs_Value = -num;
 
-
-    cout << "The absolute value of " << num << " is: " << absoluteValue << endl;
+    cout << "The absolute value of " << num << " is: " << abs_Value << endl;
 
     return 0;
 }
