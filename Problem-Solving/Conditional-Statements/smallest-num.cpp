@@ -1,5 +1,5 @@
 /*
-Write a C++ program that finds the smallest number among three integers
+  Write a C++ program that finds the smallest number among three integers.
 */
 
 #include <iostream>
