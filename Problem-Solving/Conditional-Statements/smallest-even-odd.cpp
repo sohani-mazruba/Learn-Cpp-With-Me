@@ -1,5 +1,5 @@
 /*
-write a C++ program to find the smallest even or odd number among three integers
+Write a C++ program to find the smallest even or odd number among three integers
 */
 
 #include <iostream>
