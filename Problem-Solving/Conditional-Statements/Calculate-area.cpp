@@ -42,7 +42,7 @@ int main ()
         cout << "Enter the width of the rectangle: ";
         cin >> w;
 
-    if(l&&w<0)
+    if(l||w<0)
     {
         cout << "Invalid! Neither lenght nor weight can be negative." <<endl;
     }
@@ -59,7 +59,7 @@ int main ()
         cout << "Enter the height of the rectangle: ";
         cin >> h;
 
-    if(b&&h<0)
+    if(b||h<0)
     {
         cout << "Invalid! Neither base nor height can be negative." <<endl;
     }
