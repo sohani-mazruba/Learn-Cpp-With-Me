@@ -12,8 +12,16 @@ int main () {
     cout << "Enter Radius: ";
     cin >> r;
 
-    area = PI*pow(r,2);
-    cout << "The area of the Circle is: " << area << endl;
+    if(r<0)
+    {
+        cout << "Radius can't be negative." <<endl;
+    }
+    else
+    {
+        area = PI*pow(r,2);
+        cout << "The area of the Circle is: " << area << endl;
+    }  
+    
 
     return 0;
 }
@@ -29,9 +37,16 @@ int main () {
     cout << "Enter Radius: ";
     cin >> radius;
 
-    area = PI*(radius*radius);
-    cout << "The area of the Circle is: " << area << endl;
+    if(r<0)
+    {
+        cout << "Radius can't be negative." <<endl;
+    }
+    else
+    {
+        area = PI*(radius*radius);
+        cout << "The area of the Circle is: " << area << endl;
 
+    }  
     return 0;
 }
  */
