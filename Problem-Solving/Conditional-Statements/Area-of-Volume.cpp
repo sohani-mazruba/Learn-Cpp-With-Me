@@ -11,17 +11,17 @@ int main ()
 {
     float v,r;
     const float pi = 3.1416;
-    cout << " Enter the value of radius : " <<endl;
+    cout << " Enter the value of radius : " ;
     cin >> r;
 
     if(r<0)
     {
-        cout << " Radius can't be negative." <<endl;
+        cout << "Radius can't be negative." <<endl;
     }
     else
     {
         v = (4*pi*pow(r,3))/3 ;
-        cout << " The volume of the circle is : " << v << endl;
+        cout << "The volume of the circle is : " << v << endl;
     }
     return 0;
 }
