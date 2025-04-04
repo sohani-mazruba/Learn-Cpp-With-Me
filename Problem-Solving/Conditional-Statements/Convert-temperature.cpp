@@ -22,7 +22,7 @@ int main () {
         cout << temp << " Degree Celsius is Equivalent to " << conv << " Degree Fahrenheit." << endl;
         break;
     case 2:
-        conv = (temp-32)*(5.0/9.0);
+        conv = ((temp-32)*5.0)/9.0;
         cout << temp << " Degree Fahrenheit is Equivalent to " << conv << " Degree Celsius." << endl;
         break;
     default:

@@ -16,16 +16,23 @@ int main()
     int age;
     cout<<"Enter your age: ";
 
-    if (!(cin >> age)) {
+    if (!(cin >> age)) 
+    {
         cout << "Invalid input! Please enter a numeric value." << endl;
     }
-    else if (age < 0) {
+
+    else if (age < 0) 
+    {
         cout << "Invalid input! Age cannot be negative." << endl;
     }
-    else if (age >= 18) {
+
+    else if (age >= 18) 
+    {
         cout << "You are eligible to vote." << endl;
     }
-    else {
+    
+    else 
+    {
         cout << "You are not eligible to vote." << endl;
     }
 
