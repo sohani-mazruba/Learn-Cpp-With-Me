@@ -34,7 +34,7 @@ int main () {
             result = num1 / num2;
             cout << num1 << "/" << num2 << "= " << result << endl;
         } else {
-            cout << "Cannot divide by 0(Zero)" << endl;
+            cout << "Cannot be divided by 0(Zero)" << endl;
         }
         break;
     default:

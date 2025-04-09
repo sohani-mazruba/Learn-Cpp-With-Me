@@ -19,7 +19,7 @@ int main()
         largest = num2;
         }
 
-   if (num3 > largest)
+    if (num3 > largest)
         {
         largest = num3;
         }
