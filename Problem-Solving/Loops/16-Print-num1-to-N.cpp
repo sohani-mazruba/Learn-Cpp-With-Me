@@ -16,14 +16,14 @@ int main() {
   string firstName, lastName;
 
     cout << "Enter (N): ";
-  cin >> N;
+    cin >> N;
     cout << "Enter first divisor (X): ";
     cin >> X;
-   cout << "Enter second divisor (Y): ";
-   cin >> Y;
-   cout << "Enter your first name: ";
+    cout << "Enter second divisor (Y): ";
+    cin >> Y;
+    cout << "Enter your first name: ";
     cin >> firstName;
-   cout << "Enter your last name: ";
+    cout << "Enter your last name: ";
     cin >> lastName;
 
 
