@@ -6,15 +6,15 @@
 using namespace std;
 
 int main () {
-    int number;
-    int factorial = 1;
+    int num;
+    int f = 1;
     cout << "Enter a number: ";
-    cin >> number;
+    cin >> num;
 
-    for (int i=number; i>0; i--) {
-        factorial *= i;
+    for (int i=num; i>0; i--) {
+        f *= i;
     }
-    cout << "Factorial of " << number << " is: " << factorial << endl;
+    cout << "Factorial of " << num << " is: " << f << endl;
 
     return 0;
 }
