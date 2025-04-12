@@ -6,20 +6,21 @@
 using namespace std;
 
 int main () {
-    int number;
-    double count, sum, avg;
+    int num;
+    double n, sum, avg;
 
     cout << "Enter the number of elements: " << endl;
-    cin >> count;
+    cin >> n;
     int i = 1;
     do {
         cout << "Enter number " << i << ": ";
-        cin >> number;
+        cin >> num;
 
-        sum += number;
+        sum += num;
         i++;
-    } while (i<=count);
-    avg = sum/count;
+    } 
+    while (i<=n);
+    avg = sum/n;
     cout << "Sum: " << sum << endl;
     cout << "Average: " << avg << endl;
 

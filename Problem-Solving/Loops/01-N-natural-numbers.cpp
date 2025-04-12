@@ -5,15 +5,24 @@
 #include <iostream>
 using namespace std;
 
-int main () {
+int main() {
     int N;
+
     cout << "Enter a number: ";
     cin >> N;
 
-    for (int i=1; i<=N; i++) {
+    if (N < 1) {
+        cout << "Please enter a positive integer greater than 0." << endl;
+        return 1;
+    }
+
+    cout << "The first " << N << " natural numbers are: ";
+    for (int i = 1; i <= N; i++) {
         cout << i << " ";
     }
 
+    cout << endl;
     return 0;
 }
+
 

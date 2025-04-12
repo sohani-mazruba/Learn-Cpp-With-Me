@@ -7,17 +7,17 @@ a for loop.
 using namespace std;
 
 int main() {
-    int sum = 0;
-    int count = 20;
+    int n = 20;
+    double sum = 0;
 
     for (int i = 1; i <= 20; i++) {
-        sum = sum + i;
+        sum += i;
     }
 
-    float average = sum / (float)count;
+    double avg = sum / ( double)n;
 
     cout << "Sum of first 20 natural numbers: " << sum << endl;
-    cout << "Average of first 20 natural numbers: " << average << endl;
+    cout << "Average of first 20 natural numbers: " << avg << endl;
 
     return 0;
 }
