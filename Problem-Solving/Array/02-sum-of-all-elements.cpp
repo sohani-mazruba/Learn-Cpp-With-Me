@@ -9,7 +9,7 @@ int main () {
     int arr[5], sum;
 
     for (int i=0; i<5; i++) {
-        cout << "Enter element: " << i+1 << ": ";
+        cout << "Enter element " << i+1 << ": ";
         cin >> arr[i];
         sum += arr[i];
     }
