@@ -28,7 +28,6 @@ int main()
     }
     cout << endl;
 
-    // Fix: Initialize largest to the first array element
     int largest = arr[0];
     for(int i = 1; i < 5; i++)
     {
