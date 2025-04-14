@@ -1,4 +1,5 @@
 /*
+
 Write a C++ program that performs the following operations on an array of 5 integers:
 1. Accept 5 integer inputs from the user and store them in an array.
 2. Display the array elements in the order they were entered.

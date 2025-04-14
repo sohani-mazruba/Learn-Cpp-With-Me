@@ -1,16 +1,12 @@
 /*
-Question:
 
 Write a C++ program to read the marks of 5 students and calculate the total marks. Your program should:
-
 1. Use an array to store the marks of each student.
 2. Prompt the user to enter the marks for each student.
 3. Calculate the total marks using a loop.
 4. Display the total marks of all 5 students.
 
-
 Sample Output:
-
 Enter total marks for 5 students -
 Student 1: 85
 Student 2: 90
@@ -20,6 +16,7 @@ Student 5: 95
 Total marks of 5 students: 436
 
 */
+
 #include <iostream>
 using namespace std;
 
