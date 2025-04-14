@@ -15,33 +15,32 @@ int main()
 {
     int arr[5];
 
-
-    for(int i=0; i<5; i++)
+    for(int i = 0; i < 5; i++)
     {
-        cout<<"Enter number: ";
-        cin>>arr[i];
+        cout << "Enter number: ";
+        cin >> arr[i];
     }
 
-    cout<<"Array elements in the order: ";
-    for(int i=0; i<5; i++)
+    cout << "Array elements in the order: ";
+    for(int i = 0; i < 5; i++)
     {
-
-        cout<<arr[i]<<" ";
+        cout << arr[i] << " ";
     }
-    cout<<endl;
+    cout << endl;
 
-    int largest = 0;
-    for(int i=0; i<5; i++)
+    // Fix: Initialize largest to the first array element
+    int largest = arr[0];
+    for(int i = 1; i < 5; i++)
     {
-        if(arr[i]>largest)
-         largest=arr[i];
+        if(arr[i] > largest)
+            largest = arr[i];
     }
-    cout<<"Largest value: "<<largest<<endl;
+    cout << "Largest value: " << largest << endl;
 
-    cout<<"Array elements in reverse order: ";
-    for(int i=4; i>=0; i--)
+    cout << "Array elements in reverse order: ";
+    for(int i = 4; i >= 0; i--)
     {
-        cout<<arr[i]<<" ";
+        cout << arr[i] << " ";
     }
 
     return 0;
