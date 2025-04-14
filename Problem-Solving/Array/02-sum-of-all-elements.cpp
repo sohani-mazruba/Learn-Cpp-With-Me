@@ -6,7 +6,7 @@ Write a C++ program to find the sum of all elements in a one-dimensional array o
 using namespace std;
 
 int main () {
-    int arr[5], sum;
+    int arr[5], sum=0;
 
     for (int i=0; i<5; i++) {
         cout << "Enter element " << i+1 << ": ";
