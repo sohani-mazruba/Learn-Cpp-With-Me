@@ -15,7 +15,7 @@ int main() {
         return 1;
     }
 
-    int* arr = new int[n];
+    int arr[n]; 
 
     for (int i = 0; i < n; i++) {
         cout << "Enter element " << i + 1 << ": ";
@@ -33,3 +33,4 @@ int main() {
 
     return 0;
 }
+
