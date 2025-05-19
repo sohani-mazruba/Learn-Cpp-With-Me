@@ -31,6 +31,6 @@ int main()
         }
 
     }
-
-    cout<<even<<endl<<odd;
+    cout << "Even numbers: " <<even << endl;
+    cout << "Odd numbers: " <<odd << endl;
 }
