@@ -15,7 +15,7 @@ int main () {
         cin >> arr[i];
     }
 
-    cout << "The elements in the array are: " <<" " << endl;
+    cout << "The elements in the array are:" << " " ;
     for (int i=0; i<5; i++) {
         cout << arr[i]<<" ";
     }
